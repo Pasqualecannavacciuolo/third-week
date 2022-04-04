@@ -8,14 +8,6 @@ public class Department {
     private String name;
     private Set<Student> students;
 
-    public Set<Student> getStudents() {
-        return students;
-    }
-
-    public void setStudents(Set<Student> students) {
-        this.students = students;
-    }
-
     public Department(){}
 
     public Department(String name) {
@@ -36,5 +28,13 @@ public class Department {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Set<Student> getStudents() {
+        return students;
+    }
+
+    public void setStudents(Set<Student> students) {
+        this.students = students;
     }
 }

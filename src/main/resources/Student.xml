@@ -9,8 +9,6 @@
         </id>
         <property name="name"/>
         <property name="lastName"/>
-        <many-to-one name="department" class="Department" not-null="true">
-
-        </many-to-one>
+        <many-to-one name="department" class="Department" not-null="true"/>
     </class>
 </hibernate-mapping>

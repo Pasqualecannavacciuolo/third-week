@@ -42,7 +42,7 @@ public class Tester {
         session.beginTransaction();
         List result2 = session.createQuery("from com.corso.java.exercises.department.Student").list();
         for (Student student : (List<Student>) result2) {
-            System.out.println("Student (" + student.getName() + ") : " + student.getLastName() + "  " + student.getCodDepartment());
+            System.out.println("Student (" + student.getName() + ") : " + student.getLastName());
         }
         session.getTransaction().commit();
         session.close();

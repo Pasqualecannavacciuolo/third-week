@@ -9,7 +9,7 @@
         </id>
         <property name="name"/>
         <set name="students" inverse="true" cascade="all" lazy="true" fetch="select">
-            <key column="id_department" not-null="true" />
+            <key column="department" not-null="true" />
             <one-to-many class="Student"/>
         </set>
     </class>

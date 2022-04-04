@@ -6,13 +6,6 @@ public class Student {
     private String lastName;
     private Department department;
 
-    public Department getDepartment() {
-        return department;
-    }
-
-    public void setDepartment(Department department) {
-        this.department = department;
-    }
 
 
     public Student() {}
@@ -52,6 +45,14 @@ public class Student {
     }
 
     public void setCodDepartment(Department department) {
+        this.department = department;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
         this.department = department;
     }
 }
